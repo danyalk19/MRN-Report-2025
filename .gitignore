@@ -1,0 +1,22 @@
+# =============================================================================
+# Git Ignore File for MRN Report 2025 Project
+# =============================================================================
+
+# 1. PROPRIETARY DATA
+data/Wide (filtered).xlsx
+
+# 2. LARGE DATA FILES
+data/Student-characteristics-populations-2024.csv
+
+# 3. R & RSTUDIO ENVIRONMENT FILES
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# 4. MACOS & WINDOWS SYSTEM FILES
+.DS_Store
+Thumbs.db
+
+# 5. OUTPUT FILES
+report/figures/
